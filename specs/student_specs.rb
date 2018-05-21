@@ -38,5 +38,4 @@ class TestStudent< Minitest::Test
     fave_language = student.say_favourite_language("Ruby")
     assert_equal("You love Ruby!",fave_language)
   end
-
 end
