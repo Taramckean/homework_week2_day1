@@ -42,4 +42,9 @@ def test_book_name
   assert_equal(@books[0], name)
 end
 
+def test_find_rental_details
+  rental_details = @library.find_rental_details("great_gatsby")
+  assert_equal(@books[1][:rental_details], rental_details)
+end
+
 end
