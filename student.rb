@@ -25,7 +25,6 @@ class Student
   end
 
   def say_favourite_language(language)
-  
     return "You love #{language}!"
   end
 end
